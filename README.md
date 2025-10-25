@@ -25,7 +25,7 @@ Apri il file e imposta i tuoi valori:
 - ROBOT_PASS = "YOUR_HETZNER_PASSWORD"
 - FAILOVER_IP = "XXX.XXX.XXX.XXX"   # IP Failover Hetzner
 - SERVER_A_IP = "XXX.XXX.XXX.XXX"   # IP primario
-- SErVER_B_IP = "XXX.XXX.XXX.XXX"   # IP di backup
+- SERVER_B_IP = "XXX.XXX.XXX.XXX"   # IP di backup
 - HEALTH_URL_A = "http://<server-a-ip>/"
 - TIMEOUT_S = Xsec
 - ALLOW_FAILBACK = True
@@ -48,3 +48,4 @@ POST	/failover/<FAILOVER_IP>	Imposta un nuovo server attivo
 
 ## Documentazione ufficiale:
 https://docs.hetzner.com/robot/dedicated-server/ip/failover/
+
